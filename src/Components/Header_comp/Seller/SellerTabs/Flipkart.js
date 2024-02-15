@@ -57,7 +57,7 @@ const Flipkart = () => {
 
       }}
     >
-      {flipkart.map((cart) => {
+      {flipkart?.map((cart) => {
         return (
           <Box sx={{ ddisplay: "grid", padding:"10px"}} key={cart.id}> 
             <Card
